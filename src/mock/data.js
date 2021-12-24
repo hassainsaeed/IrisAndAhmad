@@ -2,7 +2,7 @@ import { nanoid } from 'nanoid';
 
 // HEAD DATA
 export const headData = {
-  title: '#IrisAndAhmad', // e.g: 'Name | Developer'
+  title: '#AhmadCaughtCoronaIris', // e.g: 'Name | Developer'
   lang: 'en', // e.g: en, es, fr, jp
   description:
     "Wedding website to share details and media from Iris and Ahmad's upcoming wedding", // e.g: Welcome to my website
@@ -14,7 +14,7 @@ export const livestreamData = {
   lang: 'en',
   description: "A livestream of the events from Iris and Ahmad's Nikkah ceremony, and more!",
   paragraphOne:
-    "We are streaming our Nikkah Ceremony live at (TBD)am EST. It's a way to include all of our loved ones on our special day, even if they cannot physically join us.",
+    "We are streaming our Nikkah Ceremony live at 12:00 PM EST. It's a way to include all of our loved ones on our special day, even if they cannot physically join us.",
 };
 
 // GUESTBOOK DATA
@@ -55,9 +55,9 @@ export const eventsData = [
     id: nanoid(),
     img: 'nikkah.jpg',
     title: 'Nikkah Livestream',
-    info: 'Watch our Nikkah ceremony, live from [TBD]]',
+    info: 'Watch our Nikkah ceremony, live from Scarborough',
     info2:
-      "The Nikkah ceremony live stream will start at [TBD]AM EST on January 8th, 2021. And don't worry - a recorded video will be available if you miss it!",
+      "The Nikkah ceremony live stream will start at 12:00 PM EST on January 8th, 2021. And don't worry - a recorded video will be available if you miss it!",
     url: '/livestream',
     cta: 'See Live',
   },
@@ -71,6 +71,8 @@ export const eventsData = [
     url: '/guestbook',
     cta: 'Leave a Note',
   },
+  // TODO: Add Events for Nikkah info and Walima info.
+  // Will just be a link to a blank page that has the cards only
 ];
 
 // CONTACT DATA
@@ -80,3 +82,11 @@ export const contactData = {
   btn: 'Lets Talk',
   phone: '647-969-1407',
 };
+
+// Second option: CONTACT DATA
+// export const contactData = {
+//   title: 'Contact',
+//   cta: 'Have any questions? Feel free to shoot a message to the email below',
+//   btn: 'Lets Talk',
+//   phone: 'iaweds2022@gmail.com',
+// };
