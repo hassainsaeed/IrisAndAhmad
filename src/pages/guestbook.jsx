@@ -5,7 +5,7 @@ import { guestbookData } from '../mock/data';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../style/main.scss';
 
-export default () => {
+const GuestbookPage = function () {
   const { title, lang, description } = guestbookData;
 
   return (
@@ -20,3 +20,5 @@ export default () => {
     </>
   );
 };
+
+export default GuestbookPage;

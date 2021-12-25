@@ -2,7 +2,7 @@ import { nanoid } from 'nanoid';
 
 // HEAD DATA
 export const headData = {
-  title: '#IrisAndAhmad', // e.g: 'Name | Developer'
+  title: '#AhmadCaughtCoronaIris', // e.g: 'Name | Developer'
   lang: 'en', // e.g: en, es, fr, jp
   description:
     "Wedding website to share details and media from Iris and Ahmad's upcoming wedding", // e.g: Welcome to my website
@@ -14,7 +14,7 @@ export const livestreamData = {
   lang: 'en',
   description: "A livestream of the events from Iris and Ahmad's Nikkah ceremony, and more!",
   paragraphOne:
-    "We are streaming our Nikkah Ceremony live at (TBD)am EST. It's a way to include all of our loved ones on our special day, even if they cannot physically join us.",
+    "We are streaming our Nikkah Ceremony live at 12:00 PM EST. It's a way to include all of our loved ones on our special day, even if they cannot physically join us.",
 };
 
 // GUESTBOOK DATA
@@ -44,9 +44,9 @@ export const aboutData = {
   img: 'AboutImg350.jpeg',
   paragraphOne: 'Alhamdulilah, we are elated to announce that we are tying the knot this year!',
   paragraphTwo:
-    "Our Nikkah will take place on January 8th, 2021, Insha'Allah. The Walima will happen on January 9th, 2021, Insh'Allah",
+    "Our Nikkah will take place on January 8th, 2021, Insha'Allah. The Walima will happen on January 9th, 2021, Insha'Allah",
   paragraphThree:
-    'As much as we would love to have all our family and friends join us from far and wide, due to the recent new COVID variant and travel restrictions we understand not everyone can physically make it. However we hope that through this website you can join us in spirit, and watch our special occaison through Livestream and photos.',
+    'As much as we would love to have all our family and friends join us from far and wide, due to the recent COVID variant and travel restrictions we understand that not everyone can physically attend. However we hope that through this website you can join us in spirit, and watch our special occaison through Livestream and photos.',
 };
 
 // EVENTS DATA
@@ -55,9 +55,9 @@ export const eventsData = [
     id: nanoid(),
     img: 'nikkah.jpg',
     title: 'Nikkah Livestream',
-    info: 'Watch our Nikkah ceremony, live from [TBD]]',
+    info: 'Watch our Nikkah ceremony, live from Scarborough',
     info2:
-      "The Nikkah ceremony live stream will start at [TBD]AM EST on January 8th, 2021. And don't worry - a recorded video will be available if you miss it!",
+      "The Nikkah ceremony live stream will start at 12:00 PM EST on January 8th, 2021. And don't worry - a recorded video will be available if you miss it!",
     url: '/livestream',
     cta: 'See Live',
   },
@@ -71,12 +71,43 @@ export const eventsData = [
     url: '/guestbook',
     cta: 'Leave a Note',
   },
+  {
+    id: nanoid(),
+    img: 'EventImgOne300.jpeg',
+    title: 'Nikkah and Walima Information',
+    info:
+      'Lost your wedding invite cards? No worries!',
+    info2: 'Click below for information about the time and location of the Nikkah ceremony and Walima ceremony',
+    url: '/eventinformation',
+    cta: 'Get Information',
+  },
 ];
+
+// EVENT INFORMATION PAGE DATA
+export const eventInformationPageData = {
+  title: 'Information Page',
+  lang: 'en',
+  description: 'Page where people can get infomation about the location and time of the events',
+};
+
+// NIKKAH CARD DATA
+export const nikkahCardData = {
+  id: 'nikkahCard',
+  title: 'Nikkah Information',
+  img: 'nikkahCardImg.JPG',
+};
+
+// WALIMA CARD DATA
+export const walimaCardData = {
+  id: 'walimaCard',
+  title: 'Walima Information',
+  img: 'walimaCardImg.JPG',
+};
 
 // CONTACT DATA
 export const contactData = {
   title: 'Contact',
-  cta: 'Have any questions? Feel free to call or shoot a text message at the number below',
+  cta: 'Have any questions? Feel free to shoot a message to the email below',
   btn: 'Lets Talk',
-  phone: '647-969-1407',
+  phone: 'iaweds2022@gmail.com',
 };
