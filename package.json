@@ -1,7 +1,7 @@
 {
   "name": "irisandahmad",
   "description": "Wedding website for Ahmad and Iris",
-  "version": "0.0.01",
+  "version": "1.0.0",
   "author": "hassainsaeed",
   "license": "0BSD",
   "starter-name": "gatsby-starter-portfolio-cara",
@@ -47,7 +47,7 @@
   "devDependencies": {
     "babel-eslint": "^10.1.0",
     "eslint": "^8.4.1",
-    "eslint-config-airbnb": "^18.1.0",
+    "eslint-config-airbnb": "^19.0.2",
     "eslint-config-prettier": "^6.11.0",
     "eslint-plugin-import": "^2.25.3",
     "eslint-plugin-jsx-a11y": "^6.5.1",
