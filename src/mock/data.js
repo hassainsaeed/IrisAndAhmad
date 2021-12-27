@@ -35,16 +35,16 @@ export const heroData = {
   name: 'Iris & Ahmad',
   subtitle: "And we're getting married!",
   cta: 'Learn More',
-  img: 'heroImg700.jpeg',
+  img: 'iaWeds_Hero.jpeg',
 };
 
 // ABOUT DATA
 export const aboutData = {
   title: "What's Happening?",
-  img: 'AboutImg350.jpeg',
+  img: 'iaWeds_About.jpeg',
   paragraphOne: 'Alhamdulilah, we are elated to announce that we are tying the knot this year!',
   paragraphTwo:
-    "Our Nikkah will take place on January 8th, 2021, Insha'Allah. The Walima will happen on January 9th, 2021, Insha'Allah",
+    "Our Nikkah will take place on January 8th, 2022, Insha'Allah. The Wedding Reception will happen on January 9th, 2022, Insha'Allah",
   paragraphThree:
     'As much as we would love to have all our family and friends join us from far and wide, due to the recent COVID variant and travel restrictions we understand that not everyone can physically attend. However we hope that through this website you can join us in spirit, and watch our special occaison through Livestream and photos.',
 };
@@ -53,17 +53,17 @@ export const aboutData = {
 export const eventsData = [
   {
     id: nanoid(),
-    img: 'nikkah.jpg',
+    img: 'iaWeds_Nikkah.jpeg',
     title: 'Nikkah Livestream',
     info: 'Watch our Nikkah ceremony, live from Scarborough',
     info2:
-      "The Nikkah ceremony live stream will start at 12:00 PM EST on January 8th, 2021. And don't worry - a recorded video will be available if you miss it!",
+      "The Nikkah ceremony live stream will start at 12:00 PM EST on January 8th, 2022. And don't worry - a recorded video will be available if you miss it!",
     url: '/livestream',
     cta: 'See Live',
   },
   {
     id: nanoid(),
-    img: 'guestbook-min.JPG',
+    img: 'iaWeds_Guestbook.png',
     title: 'Virtual Guestbook',
     info:
       'If you cannot reach us in person, we would be so grateful if you left a note and photo of your beautiful faces for us to see',
@@ -73,11 +73,11 @@ export const eventsData = [
   },
   {
     id: nanoid(),
-    img: 'EventImgOne300.jpeg',
-    title: 'Nikkah and Walima Information',
+    img: 'iaWeds_Events.jpeg',
+    title: 'Nikkah and Wedding Reception Information',
     info:
       'Lost your wedding invite cards? No worries!',
-    info2: 'Click below for information about the time and location of the Nikkah ceremony and Walima ceremony',
+    info2: 'Click below for information about the time and location of the Nikkah ceremony and Wedding Reception ceremony',
     url: '/eventinformation',
     cta: 'Get Information',
   },
@@ -97,10 +97,10 @@ export const nikkahCardData = {
   img: 'nikkahCardImg.JPG',
 };
 
-// WALIMA CARD DATA
+// Wedding Reception CARD DATA
 export const walimaCardData = {
   id: 'walimaCard',
-  title: 'Walima Information',
+  title: 'Wedding Reception Information',
   img: 'walimaCardImg.JPG',
 };
 

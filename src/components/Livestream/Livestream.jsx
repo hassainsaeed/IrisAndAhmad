@@ -6,7 +6,7 @@ import Title from '../Title/Title';
 import { livestreamData } from '../../mock/data';
 import useScript from '../../hooks/useScript';
 
-function LiveStream() {
+const LiveStream = function () {
   const { title, paragraphOne } = livestreamData;
   const [isDesktop, setIsDesktop] = useState(false);
   const [isMobile, setIsMobile] = useState(false);
@@ -24,17 +24,17 @@ function LiveStream() {
   }, []);
 
   useEffect(() => {
-    function twitchScriptLoaded() {
+    const twitchScriptLoaded = function () {
+      /* eslint-disable no-new */
       new window.Twitch.Embed('twitch-embed', {
         width: 854,
         height: 480,
-        channel: 'naadisaeedyes',
-        collection: 'fk2-tojtRxbMNg',
+        channel: 'iaweds2022',
         autoplay: true,
         // only needed if your site is also embedded on embed.example.com and othersite.example.com
         parent: [`${process.env.GATSBY_PARENT_URL}`, `www.${process.env.GATSBY_PARENT_URL}`],
       });
-    }
+    };
     const script = document.createElement('script');
     const url = 'https://embed.twitch.tv/embed/v1.js';
     script.src = url;
@@ -56,8 +56,11 @@ function LiveStream() {
           <div className="livestrean-wrapper__info">
             <p className="livestrean-wrapper__info-text">{paragraphOne}</p>
             <p className="livestrean-wrapper__info-text">
-              If the event is live now you can watch below, or if you missed it go to our{' '}
-              <a href="https://www.twitch.tv/naadisaeedyes"> Twitch Channel</a> for the recorded
+              If the event is live now you can watch below, or if you missed it go to our
+              {' '}
+              <a href="https://www.twitch.tv/iaweds2022"> Twitch Channel</a>
+              {' '}
+              for the recorded
               videos.
             </p>
           </div>
@@ -68,6 +71,6 @@ function LiveStream() {
       </Container>
     </section>
   );
-}
+};
 
 export default LiveStream;
