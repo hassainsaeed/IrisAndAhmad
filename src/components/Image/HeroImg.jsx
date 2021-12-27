@@ -3,9 +3,10 @@ import { StaticQuery, graphql } from 'gatsby';
 import PropTypes from 'prop-types';
 import Img from 'gatsby-image';
 
-const HeroImg = ({ filename, alt }) => (
-  <StaticQuery
-    query={graphql`
+const HeroImg = function ({ filename, alt }) {
+  return (
+    <StaticQuery
+      query={graphql`
       query {
         images: allFile {
           edges {
@@ -13,7 +14,7 @@ const HeroImg = ({ filename, alt }) => (
               relativePath
               name
               childImageSharp {
-                fixed(width: 700) {
+                fixed(width: 534) {
                   ...GatsbyImageSharpFixed
                 }
               }
@@ -22,20 +23,21 @@ const HeroImg = ({ filename, alt }) => (
         }
       }
     `}
-    render={(data) => {
-      const image = data.images.edges.find((n) => n.node.relativePath.includes(filename));
+      render={(data) => {
+        const image = data.images.edges.find((n) => n.node.relativePath.includes(filename));
 
-      if (!image) return null;
+        if (!image) return null;
 
-      const imageFixed = image.node.childImageSharp.fixed;
-      return <Img className="rounded shadow-lg" alt={alt} fixed={imageFixed} />;
-    }}
-  />
-);
+        const imageFixed = image.node.childImageSharp.fixed;
+        return <Img className="rounded shadow-lg" alt={alt} fixed={imageFixed} />;
+      }}
+    />
+  );
+};
 
 HeroImg.propTypes = {
-  filename: PropTypes.string,
-  alt: PropTypes.string,
+  filename: PropTypes.string.isRequired,
+  alt: PropTypes.string.isRequired,
 };
 
 export default HeroImg;

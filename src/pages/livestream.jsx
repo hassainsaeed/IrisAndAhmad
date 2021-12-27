@@ -5,7 +5,7 @@ import { livestreamData } from '../mock/data';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../style/main.scss';
 
-export default () => {
+const LivestreamPage = function () {
   const { title, lang, description } = livestreamData;
 
   return (
@@ -20,3 +20,5 @@ export default () => {
     </>
   );
 };
+
+export default LivestreamPage;
