@@ -14,7 +14,7 @@ const HeroImg = function ({ filename, alt }) {
               relativePath
               name
               childImageSharp {
-                fixed(width: 534) {
+                fixed(width: 600) {
                   ...GatsbyImageSharpFixed
                 }
               }
@@ -36,8 +36,13 @@ const HeroImg = function ({ filename, alt }) {
 };
 
 HeroImg.propTypes = {
-  filename: PropTypes.string.isRequired,
-  alt: PropTypes.string.isRequired,
+  filename: PropTypes.string,
+  alt: PropTypes.string,
+};
+
+HeroImg.defaultProps = {
+  filename: 'iaWeds_Hero.jpeg',
+  alt: 'picture',
 };
 
 export default HeroImg;
