@@ -41,7 +41,7 @@ export const heroData = {
 // ABOUT DATA
 export const aboutData = {
   title: "What's Happening?",
-  img: 'iaWeds_About.jpeg',
+  img: 'iaWeds_About.jpg',
   paragraphOne: 'Alhamdulilah, we are elated to announce that we are tying the knot this year!',
   paragraphTwo:
     "Our Nikkah will take place on January 8th, 2022, Insha'Allah. The Wedding Reception will happen on January 9th, 2022, Insha'Allah",
@@ -53,7 +53,7 @@ export const aboutData = {
 export const eventsData = [
   {
     id: nanoid(),
-    img: 'iaWeds_Nikkah.jpeg',
+    img: 'iaWeds_Nikkah.jpg',
     title: 'Nikkah Livestream',
     info: 'Watch our Nikkah ceremony, live from Scarborough',
     info2:
@@ -73,7 +73,7 @@ export const eventsData = [
   },
   {
     id: nanoid(),
-    img: 'iaWeds_Events.jpeg',
+    img: 'iaWeds_Events.jpg',
     title: 'Nikkah and Wedding Reception Information',
     info:
       'Lost your wedding invite cards? No worries!',
@@ -94,14 +94,14 @@ export const eventInformationPageData = {
 export const nikkahCardData = {
   id: 'nikkahCard',
   title: 'Nikkah Information',
-  img: 'nikkahCardImg.JPG',
+  img: 'nikkahCardImg.jpeg',
 };
 
 // Wedding Reception CARD DATA
 export const walimaCardData = {
   id: 'walimaCard',
   title: 'Wedding Reception Information',
-  img: 'walimaCardImg.JPG',
+  img: 'walimaCardImg.jpeg',
 };
 
 // CONTACT DATA
