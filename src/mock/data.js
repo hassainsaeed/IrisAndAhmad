@@ -46,7 +46,7 @@ export const aboutData = {
   paragraphTwo:
     "Our Nikkah will take place on January 8th, 2022, Insha'Allah. The Wedding Reception will happen on January 9th, 2022, Insha'Allah",
   paragraphThree:
-    'As much as we would love to have all our family and friends join us from far and wide, due to the recent COVID variant and travel restrictions we understand that not everyone can physically attend. However we hope that through this website you can join us in spirit, and watch our special occaison through Livestream and photos.',
+    'As much as we would love to have all our family and friends join us from far and wide, due to the recent COVID variant and travel restrictions we understand that not everyone can physically attend. However we hope that through this website you can join us in spirit, and watch our special occasion through Livestream and photos.',
 };
 
 // EVENTS DATA
