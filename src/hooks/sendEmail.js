@@ -4,7 +4,7 @@ function sendEmail(e) {
   e.preventDefault();
 
   emailjs
-    .sendForm('service_ntnstwa', 'template_siaattu', e.target, 'user_Mpbs9elFJYUKcmve5O3Tc')
+    .sendForm('service_uze8tqr', 'template_qj4k6vq', e.target, 'user_74wIxCZMS1T9C11SblsfO')
     .then(
       (result) => {
         console.log(result.text);
